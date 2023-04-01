@@ -1,0 +1,180 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  /* css NAVABAR: các thanh điều hướng được dàn trên menu */
+
+  .nav {
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    flex-basis: 110px;
+  }
+
+  .navbar {
+    width: auto;
+    justify-content: center;
+  }
+
+  .navbar a {
+    justify-content: center;
+  }
+
+  .nava3 {
+    display: none;
+  }
+
+  /* Css info-target: chia 2 cột chứa cả mục tiêu và thông tin cá nhân bằng GRID */
+
+  .info-target {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+  }
+
+  .target-me {
+    padding-left: 10%;
+    padding-right: 5%;
+    background-color: #f1f3f5;
+  }
+
+  /* THÔNG TIN NGHỀ NGHIỆP */
+
+  .job-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .job-info:nth-child(3) {
+    margin-top: 0px;
+  }
+
+  /* CSS CHỨNG CHỈ: tạo 2 cột, thêm border để chia. */
+
+  #certificate {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #certificate .card {
+    /* background-color: #f7f7f7; */
+    background-color: transparent;
+    border-radius: 0%;
+  }
+
+  #certificate .card1 {
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  #certificate .card2 {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  #certificate .card3 {
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+
+  .card .content > div {
+    display: flex;
+    gap: 15px;
+  }
+
+  /* .content-1:first-child {
+    padding-right: -10px;
+  } */
+
+  .card1 .card--text {
+    margin-left: 0px;
+  }
+
+  .card2 .card--text {
+    margin-left: 0px;
+  }
+
+  .card3 {
+    /* grid-column: 1/-1; */
+    margin-right: 0px;
+    /* padding-top: 20px; */
+    /* border-top: 2px solid #d6c08d; */
+  }
+
+  .card .card--img img {
+    width: 312px;
+  }
+
+  .card3 .card--text {
+    margin-left: 0px;
+  }
+
+  #certificate .section-content {
+    grid-row-gap: 0px;
+  }
+
+  /* CSS DỰ ÁN */
+
+  #project {
+    /* padding: 0px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+  }
+
+  #project .container {
+    box-sizing: border-box;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+  }
+
+  #project .section-content {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    column-gap: 20px;
+  }
+
+  #project .card {
+    box-sizing: border-box;
+  }
+
+  #project .sub-title {
+    display: grid;
+    gap: 10px;
+    padding-right: 10px;
+  }
+
+  .btn-primary {
+    text-align: center;
+  }
+
+  #project .content-1,
+  .content-2,
+  .content-3 {
+    padding-right: 10px;
+  }
+
+  /* CSS LIÊN HỆ */
+
+  #footer a:link,
+  a:visited {
+    /* font-size: 24px;
+    font-weight: bold; */
+    margin-right: 20px;
+    /* text-decoration: none;
+    color: #1d3557; */
+  }
+}

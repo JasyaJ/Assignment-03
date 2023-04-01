@@ -1,0 +1,58 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .row {
+    display: block;
+  }
+
+  .col-xl-8 #goals {
+    width: 100%;
+    margin-bottom: -30px;
+  }
+
+  .col-xl-8 #team {
+    width: 229.7%;
+    /* margin-left: 30px; */
+  }
+
+  .col-xl-8 #scopes {
+    width: 100%;
+    margin-bottom: -30px;
+  }
+
+  .col-xl-8 #primary {
+    width: 229.7%;
+    /* margin-left: 30px; */
+    margin-bottom: -30px;
+  }
+
+  .col-xl-4 #timeline {
+    width: 100%;
+    /* margin-left: 60px; */
+    margin-bottom: 30px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #goals .card div:first-child,
+  #team .card div:first-child,
+  #primary .card div:first-child {
+    justify-content: center;
+  }
+
+  #primary .card div.content {
+    display: flex;
+    justify-content: left;
+  }
+
+  .gote .col-xl-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .scopri .col-xl-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

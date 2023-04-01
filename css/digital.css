@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.row {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+#goals,
+#scopes,
+#team,
+#primary,
+#timeline {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 30px solid rgba(128, 128, 128, 0.418);
+  /* margin: 20px 0; */
+  border-radius: 10px;
+  border: 30px solid grey !important;
+}
+
+.col-xl-8 .gote {
+  height: 527.078px;
+}
+
+.gote .col-xl-4 {
+  width: 313.328px;
+  margin-left: -30px;
+  margin-right: -60px;
+}
+
+.col-xl-8 .scopri {
+  margin-top: -30px;
+}
+
+.scopri .col-xl-4 {
+  width: 313.328px;
+  margin-right: -60px;
+  margin-left: -30px;
+}
+
+h2,
+h1 {
+  text-transform: capitalize;
+  width: 100%;
+  color: blue;
+  font-weight: 900 !important;
+  padding: 10px 0;
+}
+
+.container {
+  --bs-gutter-x: none;
+}
+
+.row .gote {
+  width: 100%;
+  height: 70%;
+}
+
+.row .scopri {
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  /* margin-top: -30px; */
+}
+.card {
+  flex-direction: row;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.card div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+#goals h2,
+#scopes h2,
+#team h2,
+#primary h2,
+#timeline h2 {
+  border-bottom: 1px solid grey;
+}
+
+#scopes .card {
+  border: none;
+}
+
+#primary .card {
+  border: none;
+}
